@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 *{
     font-family: Roboto, sans-serif;
@@ -8,7 +8,7 @@
 header{
     background-color: #1f2937;
     width: 100%;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
 }
 
 .logo > a{
@@ -62,6 +62,7 @@ li, a{
     justify-content: center;
     height: 100%;
     margin-top: 3rem;
+    gap: 3rem;
 }
 
 .hero > *{
@@ -72,11 +73,11 @@ img{
     border-radius: 1rem;
 }
 
-.section1{
+.info-section{
     margin-top: 3rem;
 }
 
-.section1-header{
+.info-section-header{
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
@@ -88,7 +89,30 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
     gap: 4rem;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 5rem 10rem;
+    margin-top: 3rem;
+    color: #1f2937;
+}
+
+.quote>p{
+    text-align: right;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.quote{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .button:hover{
