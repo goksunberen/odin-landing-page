@@ -83,7 +83,7 @@ img{
 }
 
 .info-section{
-    margin-top: 3rem;
+    margin: 3rem 8rem;
 }
 
 .info-section-header{
@@ -99,7 +99,11 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 4rem;
+    gap: 1rem;
+}
+
+.wrapper > * {
+    flex: 1;
 }
 
 .quote-section{
