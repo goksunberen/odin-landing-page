@@ -101,10 +101,9 @@ li, a{
 
 .wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    gap: 1rem;
 }
 
 .wrapper p{
@@ -114,8 +113,8 @@ li, a{
 .wrapper img{
     border-radius: 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .quote-section{
