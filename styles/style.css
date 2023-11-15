@@ -80,6 +80,8 @@ li, a{
 
 img{
     border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .info-section{
@@ -164,4 +166,33 @@ footer{
 
 li, a:hover{
     color: #3882F6;
+}
+
+@media (max-width:600px) {
+    .logo>a{
+        border-bottom: 1px solid #214f98;
+        font-size: 1.25rem;
+    }
+    ul{
+        display: none;
+    }
+    .hero>img{
+        display: none;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .hero{
+        flex-wrap: wrap;
+    }
+    .signup-section{
+        display: none;
+    }
+    .quote-section{
+        font-size: 1.25rem;
+        padding: 2rem;
+    }
+    .quote>p{
+        font-size: 1.25rem;
+    }
 }
