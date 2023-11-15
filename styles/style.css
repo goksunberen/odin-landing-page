@@ -115,6 +115,34 @@ img{
     margin-bottom: 2rem;
 }
 
+.signup-section{
+    margin: 4rem 0rem;
+    padding: 0rem 10rem;
+}
+
+.card{
+    width: 100%;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
+    font-size: 1.25rem;
+}
+
+.button.action{
+    border: 1px solid #F9FAF8;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+
+}
+
 .button:hover{
     background-color: #214f98;
+}
+
+li, a:hover{
+    color: #3882F6;
 }
