@@ -168,6 +168,11 @@ li, a:hover{
     color: #3882F6;
 }
 
+.wrapper img:hover{
+    opacity: 0.75;
+    transition: 0.1 ease;
+}
+
 @media (max-width:600px) {
     .logo>a{
         border-bottom: 1px solid #214f98;
@@ -181,6 +186,10 @@ li, a:hover{
     }
     .wrapper{
         flex-direction: column;
+    }
+    .wrapper>img{
+        width: 100%;
+        height: auto;
     }
     .hero{
         flex-wrap: wrap;
