@@ -116,7 +116,7 @@ img{
 }
 
 .signup-section{
-    margin: 4rem 0rem;
+    margin: 5rem 0rem;
     padding: 0rem 10rem;
 }
 
@@ -137,6 +137,13 @@ img{
     font-size: 1.125rem;
     padding: 1rem 2rem;
 
+}
+
+footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 1.5rem;
 }
 
 .button:hover{
