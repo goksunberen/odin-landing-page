@@ -3,12 +3,20 @@
 *{
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 
 header{
     background-color: #1f2937;
     width: 100%;
-    padding: 2rem 10rem;
+    padding: 3rem 8rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .logo > a{
@@ -47,6 +55,7 @@ li, a{
 .button{
     background-color: #3882F6;
     color: #F9FAF8;
+    align-self: flex-start;
     padding: 1rem 5rem;
     margin-top: 1rem;
     text-align: center;
@@ -90,7 +99,6 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
     gap: 4rem;
 }
 
@@ -98,7 +106,7 @@ img{
     background-color: #E5E7EB;
     font-size: 2rem;
     font-style: italic;
-    padding: 5rem 10rem;
+    padding: 5rem 8rem;
     margin-top: 3rem;
     color: #1f2937;
 }
@@ -117,7 +125,7 @@ img{
 
 .signup-section{
     margin: 5rem 0rem;
-    padding: 0rem 10rem;
+    padding: 0rem 8rem;
 }
 
 .card{
