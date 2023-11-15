@@ -78,11 +78,13 @@ li, a{
     flex-basis: 100%;
 }
 
-img{
+.hero img{
     border-radius: 1rem;
-    max-width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    max-width: 45%;
     height: auto;
 }
+
 
 .info-section{
     margin: 3rem 8rem;
@@ -92,6 +94,7 @@ img{
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     color: #1f2937;
     margin-bottom: 3rem;
 }
@@ -108,9 +111,20 @@ img{
     flex: 1;
 }
 
+.wrapper p{
+    margin-top: 1.5rem;
+}
+
+.wrapper img{
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    height: 300px;
+    width: 300px;
+}
+
 .quote-section{
     background-color: #E5E7EB;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-style: italic;
     padding: 5rem 8rem;
     margin-top: 3rem;
@@ -120,7 +134,7 @@ img{
 .quote>p{
     text-align: right;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
