@@ -107,10 +107,6 @@ li, a{
     flex-wrap: wrap;
 }
 
-.wrapper > *{
-    flex: 1;
-}
-
 .wrapper p{
     margin-top: 1.5rem;
 }
